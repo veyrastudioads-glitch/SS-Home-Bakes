@@ -1,5 +1,4 @@
 import React from "react";
-import { businessConfig } from "../config/business";
 import { getGeneralEnquiryUrl, openWhatsApp } from "../utils/whatsapp";
 import { MessageCircle } from "lucide-react";
 
@@ -19,9 +18,6 @@ export const WhatsAppButton: React.FC = () => {
         >
           <MessageCircle className="w-5 h-5 text-caramel-400 fill-caramel-400/20 animate-pulse" />
           <span>ORDER ON WHATSAPP</span>
-          <span className="text-[11px] text-caramel-300 font-normal">
-            ({businessConfig.whatsappNumber})
-          </span>
         </button>
       </div>
 

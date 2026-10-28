@@ -140,7 +140,7 @@ export const CategoryMenuCard: React.FC<CategoryMenuCardProps> = ({
 
         {/* Card Footer Quick Link */}
         <div className="pt-3 border-t border-cream-200/80 flex items-center justify-between text-xs text-chocolate-800/70">
-          <span>Freshly baked to order in Villivakkam</span>
+          <span>Freshly baked to order with love</span>
           <button
             onClick={() =>
               openWhatsApp(

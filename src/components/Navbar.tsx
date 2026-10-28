@@ -121,7 +121,7 @@ export const Navbar: React.FC = () => {
               className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-chocolate-900 text-cream-50 font-medium text-sm shadow-warm-sm"
             >
               <MessageCircle className="w-4 h-4 text-caramel-400" />
-              <span>Order on WhatsApp (6380518359)</span>
+              <span>Order on WhatsApp</span>
             </button>
           </div>
         </div>

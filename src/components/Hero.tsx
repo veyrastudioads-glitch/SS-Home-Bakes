@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cream-200/80 border border-caramel-500/30 shadow-warm-sm">
               <MapPin className="w-3.5 h-3.5 text-caramel-600" />
               <span className="text-xs sm:text-sm font-medium text-chocolate-900 tracking-wide">
-                Home Bakery in {businessConfig.cityArea}
+                Freshly Handcrafted Home Bakery
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-caramel-500 animate-pulse" />
             </div>
@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
 
             {/* Editorial Subheadline */}
             <p className="text-base sm:text-lg md:text-xl text-chocolate-800/90 max-w-xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              {businessConfig.heroSubheadline} From fudgy brownies and molten choco lava to fluffy bomboloni, freshly prepared right here in Villivakkam.
+              {businessConfig.heroSubheadline} From fudgy brownies and molten choco lava to fluffy bomboloni, freshly prepared in small batches upon order.
             </p>
 
             {/* Verified Menu Highlights Badges */}
@@ -84,12 +84,9 @@ export const Hero: React.FC = () => {
             {/* WhatsApp Phone Quick Note */}
             <p className="text-xs text-chocolate-800/70 pt-1">
               Direct Orders & Custom Enquiries:{" "}
-              <a
-                href={`tel:${businessConfig.whatsappNumber}`}
-                className="font-semibold text-chocolate-900 hover:text-caramel-600 underline underline-offset-2"
-              >
-                +91 {businessConfig.whatsappNumber}
-              </a>
+              <span className="font-semibold text-chocolate-900">
+                Online WhatsApp Order System
+              </span>
             </p>
           </div>
 

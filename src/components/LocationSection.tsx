@@ -1,5 +1,4 @@
 import React from "react";
-import { businessConfig } from "../config/business";
 import { getGeneralEnquiryUrl, openWhatsApp } from "../utils/whatsapp";
 import { MapPin, MessageCircle, Navigation, Phone } from "lucide-react";
 
@@ -19,10 +18,10 @@ export const LocationSection: React.FC = () => {
           {/* Heading */}
           <div className="space-y-2">
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-chocolate-950 tracking-tight">
-              Baked in Villivakkam
+              Fresh Handcrafted Bakery
             </h2>
             <p className="text-base sm:text-lg text-chocolate-800/85 max-w-xl mx-auto font-normal">
-              Handmade right here in {businessConfig.location}. We prepare each batch fresh to order for our local community.
+              Freshly prepared in our home kitchen. We bake each batch to order for dessert lovers and sweet celebrations.
             </p>
           </div>
 
@@ -33,9 +32,9 @@ export const LocationSection: React.FC = () => {
                 <MapPin className="w-5 h-5" />
               </div>
               <div>
-                <p className="text-xs uppercase tracking-wider text-caramel-700 font-bold">Location</p>
-                <p className="text-sm font-semibold text-chocolate-950">{businessConfig.cityArea}</p>
-                <p className="text-[11px] text-chocolate-800/70">Tamil Nadu, India</p>
+                <p className="text-xs uppercase tracking-wider text-caramel-700 font-bold">Service Area</p>
+                <p className="text-sm font-semibold text-chocolate-950">Local Delivery & Pickup</p>
+                <p className="text-[11px] text-chocolate-800/70">Freshly packed upon order</p>
               </div>
             </div>
 
@@ -44,14 +43,11 @@ export const LocationSection: React.FC = () => {
                 <Phone className="w-5 h-5" />
               </div>
               <div>
-                <p className="text-xs uppercase tracking-wider text-caramel-700 font-bold">WhatsApp & Calls</p>
-                <a
-                  href={`tel:${businessConfig.whatsappNumber}`}
-                  className="text-sm font-semibold text-chocolate-950 hover:text-caramel-600 transition-colors"
-                >
-                  {businessConfig.whatsappNumber}
-                </a>
-                <p className="text-[11px] text-chocolate-800/70">Direct ordering & inquiries</p>
+                <p className="text-xs uppercase tracking-wider text-caramel-700 font-bold">Direct Ordering</p>
+                <span className="text-sm font-semibold text-chocolate-950">
+                  Online WhatsApp System
+                </span>
+                <p className="text-[11px] text-chocolate-800/70">Fast enquiry & quotation</p>
               </div>
             </div>
           </div>
@@ -67,13 +63,11 @@ export const LocationSection: React.FC = () => {
             </button>
 
             <a
-              href={businessConfig.googleMapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#menu"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-cream-100 hover:bg-cream-200 text-chocolate-900 border border-cocoa-600/20 font-medium text-sm sm:text-base shadow-warm-sm hover:shadow-warm-md hover:-translate-y-0.5 transition-all duration-300"
             >
               <Navigation className="w-4 h-4 text-cocoa-600" />
-              <span>GET DIRECTIONS</span>
+              <span>EXPLORE MENU</span>
             </a>
           </div>
 

@@ -157,7 +157,7 @@ export const ProductGrid: React.FC = () => {
               <div className="space-y-2 text-xs text-chocolate-900 pt-1">
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-caramel-600 flex-shrink-0" />
-                  <span>Baked fresh on order in Villivakkam</span>
+                  <span>Baked fresh on order in small batches</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Wheat className="w-4 h-4 text-cocoa-600 flex-shrink-0" />

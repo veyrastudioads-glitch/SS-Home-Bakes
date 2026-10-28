@@ -30,14 +30,14 @@ export const businessConfig: BusinessConfig = {
   heroHeadline: "Small bites. Big happiness.",
   heroSubheadline: "Cakes, brownies & little treats made with love.",
   motto: "Because every bite matters",
-  whatsappNumber: "6380518359",
-  whatsappInternational: "916380518359",
-  instagramHandle: "@ss_home_bake",
-  instagramUrl: "https://www.instagram.com/ss_home_bake/",
-  youtubeUrl: "https://www.youtube.com/@ss_home_bake", // Editable placeholder: replace with your YouTube channel link
-  location: "Villivakkam, Chennai, Tamil Nadu",
-  cityArea: "Villivakkam, Chennai",
-  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Villivakkam+Chennai", // Editable
+  whatsappNumber: "+91 00000 00000",
+  whatsappInternational: "910000000000",
+  instagramHandle: "@homebakes_demo",
+  instagramUrl: "https://www.instagram.com/",
+  youtubeUrl: "https://www.youtube.com/", // Prototype demo link
+  location: "Local Delivery & Pickup",
+  cityArea: "Home Bakery Kitchen",
+  googleMapsUrl: "https://maps.google.com", // Prototype demo link
   qualities: [
     {
       title: "100% HOMEMADE",

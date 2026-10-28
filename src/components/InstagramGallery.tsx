@@ -121,7 +121,7 @@ export const InstagramGallery: React.FC = () => {
             className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full bg-cream-100 hover:bg-cream-200 text-chocolate-950 border border-cocoa-600/20 transition-all duration-300 text-sm sm:text-base font-medium shadow-warm-sm hover:shadow-warm-md hover:-translate-y-0.5"
           >
             <InstagramIcon className="w-5 h-5 text-cocoa-600" />
-            <span>FOLLOW {businessConfig.instagramHandle.toUpperCase()}</span>
+            <span>FOLLOW OUR BAKING JOURNEY</span>
             <ExternalLink className="w-4 h-4 text-chocolate-800/70" />
           </a>
         </div>

@@ -37,7 +37,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs sm:text-sm text-cream-200/80 max-w-sm mx-auto md:mx-0 leading-relaxed">
-              Homemade fresh brownies, cakes, bomboloni, and chocolate delights crafted with love in Villivakkam, Chennai.
+              Homemade fresh brownies, cakes, bomboloni, and chocolate delights crafted with love in our home kitchen.
             </p>
 
             <div className="flex items-center justify-center md:justify-start gap-2 text-xs text-caramel-300">
@@ -128,7 +128,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs text-caramel-400 font-medium">
-              WhatsApp: +91 {businessConfig.whatsappNumber}
+              Online WhatsApp Order System • Fresh to Order
             </p>
           </div>
 

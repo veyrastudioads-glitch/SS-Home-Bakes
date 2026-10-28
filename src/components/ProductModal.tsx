@@ -98,7 +98,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) 
               <div className="space-y-2 pt-2">
                 <div className="flex items-center gap-2 text-xs text-chocolate-900">
                   <CheckCircle2 className="w-4 h-4 text-caramel-600 flex-shrink-0" />
-                  <span>Prepared freshly on order in Villivakkam</span>
+                  <span>Prepared freshly to order upon request</span>
                 </div>
                 <div className="flex items-center gap-2 text-xs text-chocolate-900">
                   <Heart className="w-4 h-4 text-cocoa-600 flex-shrink-0" />

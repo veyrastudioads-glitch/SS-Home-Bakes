@@ -171,7 +171,7 @@ export const YouTubeSection: React.FC = () => {
                 <div className="absolute top-4 inset-x-4 flex items-center justify-between text-cream-50 z-20">
                   <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-chocolate-900/85 backdrop-blur-md border border-caramel-400/40 text-[11px] font-medium tracking-wide">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                    <span>Live Bake • Villivakkam</span>
+                    <span>Live Bake • Fresh Kitchen</span>
                   </div>
 
                   {/* Audio Mute/Unmute Quick Pill */}
@@ -295,13 +295,13 @@ export const YouTubeSection: React.FC = () => {
             {/* Title & Authentic Storytelling */}
             <div className="space-y-3">
               <span className="text-xs font-semibold text-caramel-700 tracking-wider uppercase">
-                Handmade In Chennai • Baked Fresh Daily
+                Handmade Daily • Baked Fresh To Order
               </span>
               <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-chocolate-950 leading-snug">
                 Made With Wholesome Ingredients & Genuine Passion
               </h3>
               <p className="text-sm sm:text-base text-chocolate-800/85 leading-relaxed font-normal">
-                Every dessert featured on our menu begins right here in our Villivakkam home kitchen. We don't use commercial premixes or artificial shortcuts — each batch of brownies, bomboloni, and chocolate delights is crafted by hand, fresh to order.
+                Every dessert featured on our menu begins right here in our home kitchen. We don't use commercial premixes or artificial shortcuts — each batch of brownies, bomboloni, and chocolate delights is crafted by hand, fresh to order.
               </p>
             </div>
 
@@ -348,7 +348,7 @@ export const YouTubeSection: React.FC = () => {
             <div className="p-4 rounded-2xl bg-chocolate-950 text-cream-50 flex items-center gap-3 border border-caramel-400/30 shadow-warm-sm">
               <span className="text-2xl">✨</span>
               <p className="font-serif italic text-xs sm:text-sm text-cream-100">
-                "{businessConfig.motto}" — Prepared with warm love in Villivakkam, Chennai.
+                "{businessConfig.motto}" — Prepared with warm love and craftsmanship.
               </p>
             </div>
 
@@ -371,7 +371,7 @@ export const YouTubeSection: React.FC = () => {
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-cream-200/90 hover:bg-cream-300/90 border border-caramel-400/50 text-chocolate-950 font-medium text-xs sm:text-sm transition-all hover:scale-[1.02]"
               >
                 <InstagramIcon className="w-4 h-4 text-caramel-700" />
-                <span>MORE REELS @ss_home_bake</span>
+                <span>MORE REELS & BAKING SHORTS</span>
               </a>
             </div>
 
